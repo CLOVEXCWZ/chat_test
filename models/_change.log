@@ -1,0 +1,12 @@
+# 记录各个版本模型的简要说明
+
+seq2seq_v101 独立embedding, Lstm+Lstm 的结构
+seq2seq_v101 -> seq2seq_v102 编码层采用双层LSTM
+seq2seq_v101 -> seq2seq_v103 编码层采用双向LSTM
+seq2seq_v101 -> seq2seq_v104 解码层加入Attention
+
+
+
+
+
+
